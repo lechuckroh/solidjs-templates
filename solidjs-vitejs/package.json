@@ -1,0 +1,33 @@
+{
+  "name": "solidjs-vitejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "docker:build": "docker build -t solidjs-vitejs:latest .",
+    "docker:run": "docker run --rm -p 3080:80 --name solidjs-vitejs solidjs-vitejs:latest",
+    "docker:stop": "docker stop solidjs-vitejs",
+    "eslint": "eslint --ext .js,.jsx,.ts,.tsx src/",
+    "prettier": "prettier --write src",
+    "serve": "vite preview",
+    "start": "vite"
+  },
+  "dependencies": {
+    "solid-js": "1.3.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.10.0",
+    "@typescript-eslint/experimental-utils": "5.10.0",
+    "@typescript-eslint/parser": "5.10.0",
+    "babel-preset-solid": "1.3.2",
+    "eslint": "8.7.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-solid": "0.4.0",
+    "prettier": "2.5.1",
+    "typescript": "4.5.5",
+    "vite": "2.7.13",
+    "vite-plugin-solid": "2.2.4"
+  }
+}
