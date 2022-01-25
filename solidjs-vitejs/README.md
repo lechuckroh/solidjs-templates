@@ -12,8 +12,9 @@ A [solid.js](https://www.solidjs.com/) project template with [vite.js](https://v
 * TypeScript (`.tsx`)
 * CSS Modules (`.module.css`)
 * Hot Module Replacement
-* ESLint
-* Prettier
+* Jest for testing
+* ESLint for static code analysis
+* Prettier for code formatting
 * See [vite.js features](https://vitejs.dev/guide/features.html) for more.
 
 ## Usage
@@ -52,6 +53,13 @@ $ yarn docker:run
 
 # stop docker container
 $ yarn docker:stop
+```
+
+### Testing
+
+Use [jest](https://jestjs.io/) for testing.
+```shell
+$ yarn test
 ```
 
 ### eslint
