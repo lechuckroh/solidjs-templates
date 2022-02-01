@@ -16,6 +16,9 @@ A [solid.js](https://www.solidjs.com/) project template with [vite.js](https://v
 * ESLint for static code analysis
 * Prettier for code formatting
 * See [vite.js features](https://vitejs.dev/guide/features.html) for more.
+* Yarn plugins
+    * [interactive-tools](https://github.com/yarnpkg/berry/tree/master/packages/plugin-interactive-tools)
+    * [typescript](https://github.com/yarnpkg/berry/tree/master/packages/plugin-typescript)
 
 ## Usage
 
