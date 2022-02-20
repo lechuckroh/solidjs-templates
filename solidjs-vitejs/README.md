@@ -30,11 +30,14 @@ $ yarn install
 $ yarn start
 # or
 $ yarn dev
+
+# upgrade interactive
+$ yarn upgrade-interactive
 ```
 
 ### production build
 
-```
+```shell
 # production build
 $ yarn build
 
@@ -44,7 +47,7 @@ $ yarn serve
 
 ### docker
 
-```
+```shell
 # production build
 $ yarn build
 
